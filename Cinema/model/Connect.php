@@ -18,8 +18,5 @@ abstract class Connect {
 
     }
 }
-<<<<<<< HEAD
 
 ?>
-=======
->>>>>>> febbed456577a74a5c5a2f58d276711c6db4a411

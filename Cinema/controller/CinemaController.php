@@ -8,7 +8,6 @@ class CinemaController{
 
         $pdo = Connect::seConnecter();
         $requete = $pdo->query("
-<<<<<<< HEAD
             SELECT titre, anneeSortie
             FROM film
         ");
@@ -46,13 +45,4 @@ class CinemaController{
 }
 
 
-=======
-            SELECT titre, annee_sortie
-            FROM film
-            ");
-
-    require "view/listFilms.php";
-}
-}
->>>>>>> febbed456577a74a5c5a2f58d276711c6db4a411
 ?>
