@@ -7,6 +7,8 @@
         <tr>
             <th>Nom</th>
             <th>Prenom</th>
+            <th>Sexe</th>
+            <th>Date de naissance</th>
         </tr>
     </thead>
     <tbody>
@@ -17,7 +19,7 @@
                     <td><?= $acteur["prenom"] ?></td>
                     <td><?= $acteur["sexe"] ?></td>
                     <td><?= $acteur["dateDeNaissance"] ?></td>
-            </tr>
+                </tr>
         <?php } ?>
     </tbody>
 </table>

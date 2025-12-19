@@ -13,8 +13,8 @@
         <?php
             foreach($requete->fetchAll() as $acteur){ ?>
                 <tr>
-                    <td><?= $acteur["nom"] ?></td>
-                    <td><?= $acteur["prenom"] ?></td>
+                    <td><a href="index.php?action=detailActeur&id=<?= $acteur["id_acteur"] ?>"><?= $acteur["nom"] ?></a></td>
+                    <td><?= $acteur["prenom"] ?></td>         
             </tr>
         <?php } ?>
     </tbody>

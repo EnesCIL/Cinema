@@ -9,9 +9,21 @@
     <title><?= $titre ?></title>
 </head>
 <body>
-    <nav class="uk-navbar-container" uk-navbar uk-striped></nav>
+    <nav class="uk-navbar-container" uk-navbar uk-striped>
+
+    </nav>
     <!-- Le titre secondaire et le contenu principal (dans listFilms) -->
     <div id="wrapper" class="uk-container-expand">
+        <nav>
+        <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="index.php?action=listFilms">Films</a></li>
+                <li><a href="index.php?action=listActeurs">Acteurs</a></li>
+                <li><a href="index.php?action=listRealisateurs">Realisateur</a></li>
+                <li><a href="index.php?action=listGenres">Genre</a></li>
+                <li><a href="index.php?action=ajouter">ajouter</a></li>
+            </ul>
+        <nav>
         <main>
             <div id ="contenu">
                 <h1 class="uk-heading-divider">PDO Cinema</h1>
